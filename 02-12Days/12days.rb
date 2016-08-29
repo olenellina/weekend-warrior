@@ -1,5 +1,6 @@
 class Xmas
   # Setting up a Class variable to avoid repeating the text within the Class methods
+  # This should have been a constant
   @@gifts = ["and a partridge in a pear tree", "two turtle doves", "three french hens", "four calling birds", "FIVE GOLDEN RINGS", "six geese-a-laying", "seven swans-a-swimming", "eight maids-a-milking", "nine ladies dancing", "ten lords-a-leaping", "eleven pipers piping", "twelve drummers drumming"]
 
   def self.gifts(num)
@@ -65,3 +66,5 @@ class Xmas
   end
 
 end
+
+puts Xmas.sing
